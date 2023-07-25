@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
+
 </head>
 
 <body>
@@ -131,9 +132,9 @@
         <section class="max-w-xl md:max-w-md lg:max-w-full mx-auto py-20">
             <div class="text-center mb-24">
                 <h1 class="text-4xl font-extrabold">Fetured Bikes In This Year</h1>
-                <p>Best bike collection</p>
+                <p class="text-red-500">Best bike collection</p>
             </div>
-            <div class="grid grid-cols-3 px-10">
+            <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <div>
                     <img src="./images/others/feature-bike.png" alt="">
                 </div>
@@ -142,6 +143,127 @@
                 </div>
                 <div>
                     <img src="./images/others/feature-bike.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- latest section start from here -->
+        <section class="max-w-xl md:max-w-md lg:max-w-full mx-auto py-20">
+            <div class="text-center mb-24">
+                <h1 class="text-4xl font-extrabold">Latest News</h1>
+            </div>
+            <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <!-- card -1 -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/others/latest1.png" alt="Bikes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed
+                            id nisi lectus at.</p>
+                        <div class="card-actions">
+                            <button class="btn btn-outline text-red-400">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card -2 -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/others/latest2.png" alt="Bikes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Motorcycles & Scooters</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed
+                            id nisi lectus at.</p>
+                        <div class="card-actions">
+                            <button class="btn btn-outline text-red-400">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card -3 -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/others/latest3.png" alt="Bikes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">2021 Honda CBR500R</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed
+                            id nisi lectus at.</p>
+                        <div class="card-actions">
+                            <button class="btn btn-outline text-red-400">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- happy clients section start from here -->
+        <section class="max-w-xl md:max-w-md lg:max-w-full mx-auto py-20">
+            <div class="text-center mb-24">
+                <h1 class="text-4xl font-extrabold">Happy <span class="text-orange-400">Clients says</span></h1>
+            </div>
+            <div class="grid gap-5 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <!-- clients card-1  -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/others/user-1.png" alt="Clients" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <p>Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <h2 class="card-title text-sky-400">Regina Miles</h2>
+                        <p>Banker</p>
+                    </div>
+                </div>
+                <!-- clients card-2  -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/others/user-2.png" alt="Clients" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <p>Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <h2 class="card-title text-sky-400">Regina Miles</h2>
+                        <p>Banker</p>
+                    </div>
+                </div>
+                <!-- clients card-1  -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/others/user-3.png" alt="Clients" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <p>Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <h2 class="card-title text-sky-400">Regina Miles</h2>
+                        <p>Banker</p>
+                    </div>
                 </div>
             </div>
         </section>
